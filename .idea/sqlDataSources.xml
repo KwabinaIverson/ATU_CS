@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="7971e3cb-5273-4a52-9eb8-4c92b6179103" name="my.ini Mapping">
+      <data-sources db="d5613345-ea3b-4917-8fdd-627eb1bc05d0" />
+    </mapping>
+    <mapping uuid="07e6ba43-0b25-4c98-ae63-c44fa91b1d3d" name="@localhost Mapping">
+      <data-sources db="393c25a5-d183-4a87-baa7-45281dbeb3a8" ddl="5fb896ce-8809-4a8b-9fe2-52f3ad35ef2a" />
+      <scope>
+        <node kind="database" qname="@" />
+      </scope>
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="5fb896ce-8809-4a8b-9fe2-52f3ad35ef2a" />
+          <option name="name" value="@localhost (DDL)" />
+          <option name="dbmsName" value="MYSQL" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

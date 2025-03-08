@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.GameHub.GameHubUI">
+  <grid id="27dc6" binding="framePanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="900" height="600"/>
+    </constraints>
+    <properties>
+      <background color="-2960440"/>
+      <maximumSize width="2560" height="1440"/>
+      <minimumSize width="900" height="600"/>
+      <preferredSize width="900" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="8fda8" binding="signupPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="900" height="600"/>
+            <preferred-size width="900" height="600"/>
+            <maximum-size width="2560" height="1440"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15462101"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="2ac57" binding="signupBgPanel" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="East"/>
+            <properties>
+              <background color="-2960440"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="1280" height="1440"/>
+              <minimumSize width="1280" height="1440"/>
+              <preferredSize width="450" height="300"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <vspacer id="f31c0">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <hspacer id="749e9">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="5d170" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <focusable value="true"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="resource/partners.png"/>
+                  <iconTextGap value="4"/>
+                  <text value=""/>
+                  <verticalTextPosition value="3"/>
+                </properties>
+              </component>
+              <hspacer id="db888">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="7a1a4" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="French Script MT" size="28" style="2"/>
+                  <text value="Welcome to"/>
+                </properties>
+              </component>
+              <component id="7bb2d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <maximum-size width="200" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Bookshelf Symbol 7" size="36" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="GameHub!"/>
+                </properties>
+              </component>
+              <component id="7a8e9" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Gabriola" size="18" style="0"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="to connect with fellow gamers,"/>
+                </properties>
+              </component>
+              <vspacer id="71b27">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="2a9f5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-8025203"/>
+                  <font name="Gabriola" size="20" style="0"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value=" Create an account"/>
+                </properties>
+              </component>
+              <component id="441a7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Gabriola" size="18" style="0"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="discover new titles,"/>
+                </properties>
+              </component>
+              <component id="751a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Gabriola" size="18" style="0"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="and track your progress."/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="54e7d" layout-manager="GridBagLayout">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-3486005"/>
+              <focusCycleRoot value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="256f" class="javax.swing.JTextField" binding="firstNameField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0" ipady="10"/>
+                </constraints>
+                <properties>
+                  <columns value="20"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="f290d" class="javax.swing.JTextField" binding="lastNameField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0" ipady="10"/>
+                </constraints>
+                <properties>
+                  <columns value="20"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="5a5" class="javax.swing.JTextField" binding="emailField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0" ipady="10"/>
+                </constraints>
+                <properties>
+                  <columns value="20"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="68203" class="javax.swing.JTextField" binding="studentIDField">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0" ipady="10"/>
+                </constraints>
+                <properties>
+                  <columns value="20"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="89906" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Gabriola" size="16" style="0"/>
+                  <text value="First Name"/>
+                </properties>
+              </component>
+              <component id="813a1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Gabriola" size="16" style="0"/>
+                  <text value="Last Name"/>
+                </properties>
+              </component>
+              <component id="cd172" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Gabriola" size="16" style="0"/>
+                  <text value="Email Address"/>
+                </properties>
+              </component>
+              <component id="635d5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Gabriola" size="16" style="0"/>
+                  <text value="Student ID"/>
+                </properties>
+              </component>
+              <component id="d982b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Gabriola" size="16" style="0"/>
+                  <text value="Password"/>
+                </properties>
+              </component>
+              <component id="79328" class="javax.swing.JPasswordField" binding="passwordField">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0" ipady="10"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="f1d8a" class="javax.swing.JButton" binding="signupBTN">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Gabriola" size="20" style="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <label value="Sign up"/>
+                  <text value="Sign up"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="a7b72" binding="loginPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="true" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="900" height="600"/>
+            <preferred-size width="900" height="600"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5889319"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="da4ea" binding="adminPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="900" height="600"/>
+            <preferred-size width="900" height="600"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-327683"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="7fb83" binding="homePanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="900" height="600"/>
+            <preferred-size width="450" height="300"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2508222"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
